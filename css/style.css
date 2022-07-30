@@ -1,0 +1,46 @@
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(#87d5ef), to(#1e4661)) fixed;
+}
+
+
+
+.line {
+    max-width: 50%;
+    border-color: #292121;
+}
+
+.light-blue {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px 1px;
+    background: rgba(170, 234, 255, 0.9);
+}
+
+.leadings {
+    font-weight: 600;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+.title {
+    padding: 30px 0 10px;
+    text-align: center;
+    /* font-size: 5.001em;*/
+    font-size: 6.5vw;
+    font-weight: 700;
+    line-height: normal;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px #ffffff;
+}
+
+.carousel {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.light-blue:after {
+    content: '';
+    display: table;
+    clear: both;
+}
