@@ -201,6 +201,19 @@ hr {
         font-size: 6vw;
     }
 
+    .testt {
+        font-weight: 900;
+        letter-spacing: 2px;
+        padding-left: 30px;
+        display: inline-block;
+        font-family: Segoe Script;
+
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
 }
 
 @media screen and (max-width:470px) {
@@ -211,5 +224,15 @@ hr {
     .navbar-default .navbar-nav>li>a {
         font-size: 1.5em;
         padding: 2px 30px 5px 15px;
+    }
+}
+
+
+
+
+@media screen and (min-width:766px) {
+
+    .testt {
+        display: none;
     }
 }
