@@ -159,6 +159,11 @@ hr {
 }
 
 
+.liner {
+    border-top: 1px solid rgb(0, 0, 0);
+    width: 70%;
+}
+
 .navbar-default {
     background-color: rgba(69, 147, 175, 0.9);
     background-image: linear-gradient(to right, rgba(157, 222, 245, 0.9), rgba(69, 147, 175, 0.9));
