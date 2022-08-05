@@ -1,6 +1,14 @@
 body {
     background: -webkit-gradient(linear, left top, left bottom, from(#aceaff), to(#1e4661)) fixed;
+    color: black !important;
+    padding: 0;
+    margin: 0;
+    /*height: 100%; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+
 
 
 
@@ -120,6 +128,11 @@ footer {
     background-image: linear-gradient(to right, rgba(131, 196, 219, 0.9), rgba(48, 114, 138, 0.9));
 }
 
+main {
+    flex-grow: 1;
+}
+
+
 footer h4 {
     color: #FFBD59;
     margin: 0;
@@ -231,4 +244,29 @@ hr {
 
 .navbar-default .navbar-brand {
     color: rgb(46, 44, 44);
+}
+
+
+
+
+
+
+
+
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
